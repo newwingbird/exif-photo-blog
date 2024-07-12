@@ -71,7 +71,7 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
+      lang="ja"
       // Suppress hydration errors due to next-themes behavior
       suppressHydrationWarning
     >
