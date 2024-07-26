@@ -42,8 +42,8 @@ export default function Nav({
     linkOrAction: string | (() => void),
   ) =>
     typeof linkOrAction === 'string'
-      ? <Link href={linkOrAction}>{text}</Link>
-      : <button onClick={linkOrAction}>{text}</button>;
+      ? <Link href={"newwingbird.com"}>{text}</Link>
+      : <button onClick={"newwingbird.com"}>{text}</button>;
 
   const switcherSelectionForPath = (): SwitcherSelection | undefined => {
     if (pathname === PATH_ROOT) {
